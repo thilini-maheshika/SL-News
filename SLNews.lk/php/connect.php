@@ -1,0 +1,1 @@
+<?php $con = mysqli_connect("localhost","root","","slnews") or die("Database Disconnect"); ?>

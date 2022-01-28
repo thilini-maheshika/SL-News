@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SL NEWS</title>
+	<link rel="stylesheet" type="text/css" href="css/Main_StyleN.css">
+	<script type="text/javascript" src="js/a.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+
+	
+</head>
+<body style="background-color: white">
+	<div class="container">
+		<div class="head">
+			<div class="topNav">
+				<!--<div class="add_banner1"><a href="#"><img class="image" src="img/banner2.png" alt="" title="Click here"></a></div>-->
+				<ul class="topNav_list">
+					<li><a href="index.html" id="topNav_hover">HOME</a></li>
+					<li><a href="about.html" id="topNav_hover">ABOUT</a></li>
+					<li><a href="contact.html" id="topNav_hover">CONTACT</a></li>
+					<li><a href="feedback.html" id="topNav_hover">FEEDBACK</a></li>
+					<li><a href="php/login.php" id="topNav_hover">LOGIN</a></li>
+				</ul>
+						<p id="date"></p>
+						<script type="text/javascript">
+							var day = new Date(2018, 11, 24, 10, 33, 30);
+								document.getElementById("date").innerHTML = day;
+						</script>
+			</div>
+
+			<div class="middleNav">
+				<img class="image" title="SL NEWS" src="img/logo.png">
+				<!--banner-->
+				
+					<div class="add_banner2"><a href="#"><img class="image" src="img/BOOKbanner.png" alt="" title="Click here"></a>
+					</div>
+
+					<div class="add_banner1"><a href="#"><img class="image" src="img/banner2.png" alt=""></a>
+					</div>
+
+			</div>
+
+			<div class="nav">
+				<div>
+					
+					<ul class="navList">
+						<li><b><a id="navList_hover" href="Local.html">Local</a></li></b>
+						<li><b><a id="navList_hover" href="international.html">International</a></li></b>
+						<li><b><a id="navList_hover" href="sport.html">Sports</a></li></b>
+						<li><b><a id="navList_hover" href="bussiness.html">Bussiness</a></li></b>
+						<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+					</ul>
+				</div>
+					<!-- Load font awesome icons -->
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+						<!-- The social media icon bar -->
+						
+			<div class="icon-bar">
+			  <a href="www.facebook.com" class="facebook"><i id="ico" class="fa fa-facebook-square"></i></a>
+			  <a href="www.twitter.com" class="twitter"><i id="ico" class="fa fa-twitter-square"></i></a>
+			  <a href="www.googleplus.com" class="google"><i id="ico" class="fa fa-google-plus-circle"></i></a>
+			  <a href="www.linkedin.com" class="linkedin"><i id="ico" class="fa fa-linkedin-square"></i></a>
+			  <a href="www.youtube.com" class="youtube"><i id="ico" class="fa fa-youtube-square"></i></a>
+			  <a href="www.pinterest.com" class="pinterest"><i id="ico" class="fa fa-pinterest-square"></i></a>
+			</div>
+			</div>
+
+		</div>
+		<!-- Header End -->
+		<!-- Start Body -->
+		<div class="body">
+			<!-- <marquee><p style="color: white">Sri Lankan's 24hr News WebSite - SL News</p></marquee> -->
+			<div class="main_left">
+				<div class="slideShow">
+					<div class="slideshow-container">
+
+					<div class="mySlides fade">
+					  <img src="img/thisisengineering-raeng-5KxOM7cKhmA-unsplash.jpg" style="width:98%; margin-left: 1%; margin-top: 1%">
+					</div>
+
+					<div class="mySlides fade">
+					  <img src="img/macau-photo-agency-Yww5F0Vqh0I-unsplash.jpg" style="width:98%; margin-left: 1%; margin-top: 1%">
+					</div>
+
+					<div class="mySlides fade">
+					  <img src="img/adeolu-eletu-E7RLgUjjazc-unsplash.jpg" style="width:98%; margin-left: 1%; margin-top: 1%">
+					</div>
+
+					<div class="mySlides fade">
+					  <img src="img/TV Breaking News Screen Background by in8finity on @creativemarket.jpg" style="width:98%; margin-left: 1%; margin-top: 1%">
+					</div>
+
+					<div class="mySlides fade">
+					  <img src="img/randy-colas-T1u5YP4blL4-unsplash.jpg" style="width:98%; margin-left: 1%; margin-top: 1%">
+					</div>
+
+					<div class="mySlides fade">
+					  <img src="img/evangeline-shaw-ysbTWw4hrG4-unsplash.jpg" style="width:98%; margin-left: 1%; margin-top: 1%">
+					</div>
+
+					<div class="mySlides fade">
+					  <img src="img/Screenshot (56).png" style="width:98%; margin-left: 1%; margin-top: 1%">
+					</div>
+
+
+
+					</div>
+					<br>
+
+					<div style="text-align:center">
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					  <span class="dot"></span> 
+					</div>
+					<script type="text/javascript">
+						var slideIndex = 0;
+						showSlides();
+
+						function showSlides() {
+						  var i;
+						  var slides = document.getElementsByClassName("mySlides");
+						  var dots = document.getElementsByClassName("dot");
+						  for (i = 0; i < slides.length; i++) {
+						    slides[i].style.display = "none";  
+						  }
+						  slideIndex++;
+						  if (slideIndex > slides.length) {slideIndex = 1}    
+						  for (i = 0; i < dots.length; i++) {
+						    dots[i].className = dots[i].className.replace(" active", "");
+						  }
+						  slides[slideIndex-1].style.display = "block";  
+						  dots[slideIndex-1].className += " active";
+						  setTimeout(showSlides, 3000); // Change image every 3 seconds
+						}
+					</script>
+				</div> <!-- Slideshow End -->
+				<div class="content">
+					<div class="latest_div"><h2 class="latest"><marquee>Latest News - in Sri Lanka</marquee></h2></div>
+					<div class="mainNews">
+						<div class="single_news">
+							<img src="img/Screenshot (63).png" class="main_image">
+							<a href="latest1.html"><h4>President orders clampdown on seizing vehicles by leasing firms</h4></a>
+							<p>President Gotabaya Rajapaksa has instructed the Police to refrain from accepting complaints filed by leasing companies over the failure to settle leasing installment payments, for a period of six months..</p>
+							<h5>03.09.2020</h5>
+						</div>
+						<div class="single_news">
+							<img src="img/Main_news.jpg" class="main_image">
+							<a href="latest2.html"><h4>Another 16 inmates leave Boossa Naval quarantine centre</h4></a>
+							<p>With completion of their quarantine process another 16 persons left the quarantine centre established at Boossa Naval Base, on 08th and 09th June 2020.</p>
+							<h5>03.09.2020</h5>
+						</div>
+						<div class="single_news">
+							<img src="img/Screenshot (80).png" class="main_image">
+							<a href="latest3.html"><h4>Investigation carried out into the Hanwella shooting</h4></a>
+							<p>sri Lanka Police have begun an investigation into the shooting that
+							 took place last evening at the Elamalawala area in Hanwella.
+
+							A person arrived in a motorbike and opened fire at a three-wheel driver around 6.00 to 7.00 PM on Friday evening.
+
+							While the motive for the shooting is unclear, a 34-year-old male is currently receiving treatment at the Awissawella hospital.</p>
+							<h5>03.09.2020</h5>
+						</div>
+						<div class="single_news">
+							<img src="img/Screenshot (64).png" class="main_image">
+							<a href="#"><h4>Final year MBBS exams for state university students on June 15</h4></a>
+							<p>The final MBBS medical exam for students will be held on June 15, under the first phase of reopening universities, officials said.
+
+							Universities have remained closed since March 13 after the coronavirus started spreading in the country.
+
+							“The final year exams for the students of other faculties will run from June 22 to August 15,” the government information department said.</p>
+							<h5>03.09.2020</h5>
+						</div>
+						<div class="single_news">
+							<img src="img/Screenshot (81).png" class="main_image">
+							<a href="#"><h4>Opposition accuses govt. over US diplomat incident</h4></a>
+							<p>Opposition parties continued to criticize the government for failing to take action over the US diplomat who had refused a PCR test for COVID 19, that is mandatory upon arriving in the country.</p>
+							<h5>03.09.2020</h5>
+						</div>
+						<div class="single_news">
+							<img src="img/Screenshot (83).png" class="main_image">
+							<a href="#"><h4>Rajeewa Jayaweera death ruled as suicide, but police investigations continue</h4></a>
+							<p>Sri Lanka Police have temporarily ruled the death of Rajeewa Jayaweera (64) whose body was found at Independence Square this morning, as suicide.
+
+							Police Spokesperson SP Jaliya Senaratne speaking to reporters today said a letter addressed to the victim’s brother indicated Rajeewa Jayaweera’s decision to commit suicide, including how he possessed a firearm.</p>
+							<h5>03.09.2020</h5>
+						</div>
+						<div class="single_news">
+							<img src="img/Screenshot (84).png" class="main_image">
+							<a href="#"><h4>Ombudsman appointed to act upon public complaints</h4></a>
+							<p>Retired senior DIG S.M. Wickramasinghe has been appointed as an ombudsman to inquire into public complaints and grievances, the President’s Office said in a statement.
+
+							“The Ombudsman’s Office will inquire and provide solutions in the event of any inconvenience caused to the public due to the negligent conduct of state officials while exercising administrative powers,” the statement read.</p>
+							<h5>03.09.2020</h5>
+						</div>
+						<div class="single_news">
+							<img src="img/Screenshot (85).png" class="main_image">
+							<a href="#"><h4>Export earnings in May increase due to PPE exports</h4></a>
+							<p>Sri Lanka’s export earnings have increased to 606 million US dollars in May from 277 million US dollars in April, thanks to the export of Personal Protective Equipment (PPE), the foreign ministry said in a statement.
+
+							“Sri Lanka has also been able to target new products and markets particularly for PPE and rubber-based products,” P.M. Amza, the additional secretary to the foreign ministry told local media..</p>
+							<h5>02.09.2020</h5>
+						</div>
+						<div class="single_news">
+							<img src="img/Screenshot (86).png" class="main_image">
+							<a href="#"><h4>97,000 Heroin addicts in Sri Lanka:<br> National Dangerous Drugs Control Board</h4></a>
+							<p>The Government of Sri Lanka has decided to establish a new rehabilitation centre for drug addicts.
+
+							According to statistics at the National Dangerous Drugs Control Board, there are around 97,000 people who are addicted to Heroin across the island.
+
+							The data show that close to 20,000 people are addicted to the narcotic substance ICE and around 400,000 are addicted to Cannabis.</p>
+							<h5>02.09.2020</h5>
+						</div>
+						<div class="single_news">
+							<img src="img/Screenshot (87).png" class="main_image">
+							<a href="#"><h4>Cabinet green light for video link systems to be used<br> to take up bail related matters</h4></a>
+							<p>The Government of Sri Lanka decided to implement video link technology between prisons and courts when taking up matters relating to granting bail of detainees.Joint Cabinet Spokesperson Minister (Dr.) Bandula Gunawardena said as a pilot project, systems will be implemented across prisons in Colombo.
+
+							He added the Cabinet of Ministers gave the green light for the project to go ahead..</p>
+							<h5>02.09.2020</h5>
+						</div>
+					</div>
+					<div class="latest_div"><h2 class="latest"><marquee>Recent News - in Sri Lanka</marquee></h2></div>
+					<div class="news_recent">
+						<div class="recent_part">
+							<img src="img/Screenshot (89).png" class="recent_image">
+							<a href="#"><h3>Payouts for tourist guides as government rolls out relief for tourist industry</h3></a>
+							<p>The government has introduced a relief package to the tourism industry to support the stakeholders impacted due to the coronavirus as the country has seen zero tourists since the pandemic hit Sri Lanka.
+							Sri Lanka has not seen any foreign tourists arriving in the country since March 18, after it bolted its doors for passenger flights and ships, to curb the spread of COVID-19..</p>
+							<h5>03.09.2020</h5>
+							
+						</div>
+						<div class="recent_part">
+							<img src="img/Screenshot (96).png" class="recent_image">
+							<a href="#"><h3>“Hospital Heist” doctor remanded until 24th June</h3></a>
+							<p>The doctor who was arrested for stealing Rs. 7.9 million from the Colombo National Hospital was remanded until the 24th of June.According to the Police, the suspect was identified as a doctor who was following his postgraduate specialization.On Tuesday, two Police Constables of State Intelligence Service on duty at the scene of the incident had chased after the suspect and nabbed him with the support of a Chief Inspector who had arrived in the hospital for an official commitment</p>
+							<h5>03.09.2020</h5>
+							
+						</div>
+						<div class="recent_part">
+							<img src="img/Screenshot (97).png" class="recent_image">
+							<a href="#"><h3>DIG Waruna Jayasundara assumes duties as new Commandant of Police STF</h3></a>
+							<p> Deputy Inspector General of Police, Attorney-at-Law Waruna Jayasundara assumed duties as the new Commandant of the Police Special Task Force on Thursday (June 11),DIG Waruna Jayasundara who joined Sri Lanka Police as an Assistant Superintendent of Police on the 1st February 2001,</p>
+							<h5>02.09.2020</h5>
+							</div>
+
+						<div class="recent_part">
+							<img src="img/Screenshot (98).png" class="recent_image">
+							<a href="#"><h3>30 police officers deployed to quell protests sent for quarantine</h3></a>
+							<p>30 Police Officers involved in dispersing protestors from opposite the US Embassy in Colombo earlier this week were directed to the Attidiya Quarantine Facility.
+
+							On the 09th of June activists from the Frontline Socialists Party protested opposite the US Embassy in Colombo and were wearing face masks nor did they maintain social distancing</p>
+							<h5>02.09.2020</h5>
+							
+						</div>
+						<div class="recent_part">
+							<img src="img/Screenshot (99).png" class="recent_image">
+							<a href="#"><h3>Showers to occur at times in ,sabaragamuwa and Central provinces and in Galle and Matara districts</h3></a>
+							<p>Showers will occur at times in Western, North-western, Sabaragamuwa
+							 and Central provinces and in Galle and Matara districts.Fairly heavy rainfall exceeding 50 mms are likely at some places in Sabaragamuwa province and Nuwara Eliya,  Galle and Matara districts..</p>
+							<h5>02.09.2020</h5>
+							
+						</div>
+						<div class="recent_part">
+							<img src="img/Screenshot (100).png" class="recent_image">
+							<a href="#"><h3>Workshop held for the Parliamentary Election candidates 
+							of the Samagi Jana Balawegaya.</h3></a>
+							<p>A workshop was held for the Parliamentary Election candidates of the Samagi Jana Balawegaya under the patronage of Leader of SJB – Sajith Premadasa.
+
+							Leaders of all parties constituting the Samagi Jana Balawegaya,
+							 professionals representing various sectors and the candidates of the party attended the workshop..</p>
+							<h5>02.09.2020</h5>
+							
+						</div>
+						<div class="recent_part">
+							<img src="img/Screenshot (101).png" class="recent_image">
+							<a href="#"><h3>Govt. to transport cancer patients to Apeksha Hospital</h3></a>
+							<p>The government has launched a service to transport cancer patients 
+								to the Apeksha Hospital in Maharagamadue to travelling difficulties faced by patients who visit the hospital daily, the ministry of transport services management said.
+
+							The new service, named as ‘Apeksha Express’, will transport
+							 patients from Matale, Nuwara Eliya, Anuradhapura, Hanguranketha, Nikaweratiya, Godakawela, Galgamuwa and Mullaitivu.</p>
+							<h5>02.09.2020</h5>
+							
+						</div>
+						<div class="recent_part">
+							<img src="img/Screenshot (102).png" class="recent_image">
+							<a href="#"><h3>Tuition classes, places of worship to reopen this month</h3></a>
+							<p>The government has permitted tuition classes s to reopen this month, as the country further eases restrictions imposed due to COVID-19.
+							Tuition classes will be permitted to resume from June 29, director-general of health services Dr Anil Jasinghe said in a statement on Wednesday.
+
+							“Social distancing must be practised based on the space in the class while also limiting the maximum number of students to 100,” he said</p>
+							<h5>02.09.2020</h5>
+							
+						</div><!--RECENT POST END-->
+						
+					</div>
+
+				</div>
+				
+							
+			</div> <!-- main_left End -->
+			<div class="main_right">
+				<div class="popular_post">
+					<h1 class="popular_post_header">Popular Post</h1>
+					<div class="popular_news">
+						<!--news1-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (65).png">
+							<a class="popular_news_link" href="popular1.html"><h5>420 suspects arrested for the possession of narcotics throughout the Western Province</a></h5>
+							</div>
+						<!--news2-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (66).png">
+							<a class="popular_news_link" href="popular2.html"><h5>Daily curfew amended from 12 midnight to 4 AM: PMD</a></h5>
+						</div>
+						<!--news3-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (67).png">
+							<a class="popular_news_link" href="#"><h5>COVID-19 infections in the island rise to 1,880 </a></h5>
+						</div>
+						<!--news4-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (68).png">
+							<a class="popular_news_link" href="#"><h5>Legal action taken against vendors who sell chicken above MRP: CAA </a></h5>
+						</div>
+						<!--news5-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (70).png">
+							<a class="popular_news_link" href="#"><h5>UPDATE : NEC conducts another trial election </a></h5>
+						</div>
+						<!--news6-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (71).png">
+							<a class="popular_news_link" href="#"><h5>Dengue eradication program to continue today as well </a></h5>
+							</div>
+							<!--news7-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (78).png">
+							<a class="popular_news_link" href="#"><h5>Intelligence Officer who foiled “Hospital Heist”, succumbs to injuries following accident </a></h5>
+						</div>
+						<!--news8-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (79).png">
+							<a class="popular_news_link" href="#"><h5>Sajin Vaas urges probe into Senadhipathi’s statement </a></h5>
+						</div>
+						<!--news9-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (80).png">
+							<a class="popular_news_link" href="#"><h5>Final year MBBS exams for state university students on June 15</a></h5>
+						</div>
+						<!--news10-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (83).png">
+							<a class="popular_news_link" href="#"><h5>Ranil Wickremesinghe’s statement regarding WHO funds to Sri Lanka, false – Health Minister</a></h5>
+						</div>
+						<!--news11-->
+						<div class="pn">
+							<img class="popular_news_img" src="img/Screenshot (78).png">
+							<a class="popular_news_link" href="#"><h5>SIS officer injured following accident</a></h5>
+						</div>
+
+					</div>
+					
+				</div> <!-- End populer Post -->
+
+				<div class="popular_post">
+					<h1 class="popular_post_header">Gossip</h1>
+					<div class="popular_news">
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (103).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>sComments</h5>
+							<a class="popular_news_link" href="#"><h5>The number of coronavirus infections in sri lanka goes up to 1887. </a></h5>
+							
+							</div>
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (104).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>Comments</h5>
+							<a class="popular_news_link" href="#"><h5>1287 persons infected with coronavirus goes up. </a></h5>
+						</div>
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (105).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>Comments</h5>
+							<a class="popular_news_link" href="#"><h5>Here is what the Minister had to say about the normal bus fare</a></h5>
+						</div>
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (106).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>Comments</h5>
+							<a class="popular_news_link" href="#"><h5>Here is the latest news on coronaviruses on Bandaranayaka mawatha in colombo</a></h5>
+						</div>
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (107).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>Comments</h5>
+							<a class="popular_news_link" href="#"><h5>Here's how the island's curfew is being enforced </a></h5>
+						</div>
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (108).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>Comments</h5>
+							<a class="popular_news_link" href="#"><h5>The number of coronavirus infections in sri lanka goes up to 1884</a></h5>
+						</div>
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (110).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>Comments</h5>
+							<a class="popular_news_link" href="#"><h5>Here is the date on which all university final year exams begin </a></h5>
+						</div>
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (112).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>Comments</h5>
+							<a class="popular_news_link" href="#"><h5>After the assassination of George Floyd,Affrican countries make demands from the human rights council  </a></h5>
+						</div>
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (113).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>Comments</h5>
+							<a class="popular_news_link" href="#"><h5>679 Navy personnel recoverd </a></h5>
+						</div>
+						<div class="gn">
+							<img class="popular_news_img" src="img/Screenshot (113).png">
+							<h5 class="comments"><i class="fa fa-comments" style="color: black;"></i>Comments</h5>
+							<a class="popular_news_link" href="#"><h5>Details of the confirmed patients are coming out yesterday </a></h5>
+						</div>
+					</div>
+				</div> <!-- End populer Post -->
+					
+				
+				<!--AFTER POPULAR-->
+				<div class="popular_post">
+					<h1 class="gallery_header">Gallery</h1>
+					<div class="gallery_photo">
+						<div>
+							<img class="gallery_img" src="img/martin-sanchez-VhjsGKMefkk-unsplash.jpg">
+							</div>
+						<div>
+							<img class="gallery_img" src="img/austin-distel-tLZhFRLj6nY-unsplash.jpg">
+							</div>
+						<div>
+							<img class="gallery_img" src="img/absolutvision-WYd_PkCa1BY-unsplash.jpg">
+							</div>
+						<div>
+							<img class="gallery_img" src="img/Screenshot (108).png">
+							</div>
+						<div>
+							<img class="gallery_img" src="img/Screenshot (107).png">
+							</div>
+						<div>
+							<img class="gallery_img" src="img/Screenshot (105).png">
+							</div>
+						
+					</div>
+				</div>
+			<div class="popular_post">
+					<h1 class="popular_post_header">Other news</h1>
+					<div class="other_news">
+						<div>
+							<video class="video" width="100%" height="240" controls autoplay>
+  							<source src="video/Animation close up computer keyboard with Share Button - Free HD Video Clips & Stock Video Footage at Videezy!.mp4" type="video/mp4">
+  							</video>
+							</div>
+						</div>
+					<div class="other_news">
+						<div>
+							<video class="video" width="100%" height="240" controls autoplay>
+  							<source src="video/Free Pollution Stock Video Footage Download 4K HD 889 Clips_2.webm" type="video/mp4">
+  							</video>
+							</div>
+						</div>
+				    <div class="other_news">
+						<div>
+							<video class="video" width="100%" height="240" controls autoplay>
+  							<source src="video/Backyard 4K Living Background - Free HD Video Clips & Stock Video Footage at Videezy!.mp4">
+  							</video>
+							</div>
+						</div>
+					<div class="other_news">
+							<div>
+							<video class="video" width="100%" height="240" controls autoplay>
+  							<source src="video/Free Pollution Stock Video Footage Download 4K HD 889 Clips.webm">
+  							</video>
+							</div>
+					</div>
+				</div>
+				<div class="popular_post">
+					<h1 class="end_ads_header">Advertisement</h1>
+						<div class="ads_end">
+							<video class="video" width="100%" height="240" autoplay muted loop>
+								<source src="video/Poster-instagram-text-qoute-for-my-friends-PixTeller.mp4">
+								</video>
+								<div class="video_layer"><h5 class="h5"><b>Customize important websites sri lanka.</b></h5><p>Are you looking for quotes to get a banner ad design for your NGO? If so, DesignCrowd's global community of talented designers can send you quotes for your banner ad design project. A professional banner ad design will help your NGO connect with donors. Receive quotes and get a high-quality banner ad design for you NGO. Try it now!</p> </div>
+							
+						</div>
+
+						<div class="ads_end">
+							<video class="video" width="100%" height="240" autoplay muted loop>
+								<source src="video/Improve-customer-experience-banner-PixTeller.mp4">
+								</video>
+								<div class="video_layer"><h5 class="h5"><b>Try Now!!.</b></h5><p>BM Journey Designer is a collaborative design tool. Marketing teams use storyboards to create customer journeys toward a marketing goal, such as a product launch. Journeys consist of a series of customer touchpoints, both online (such as emails, mobile pushes, and social apps) and offline (such as direct mail).</p> </div>
+							
+						</div>
+
+						<div class="ads_end">
+							<video class="video" width="100%" height="240" autoplay muted loop>
+								<source src="video/About-business-collage-PixTeller.mp4">
+								</video>
+								<div class="video_layer"><h5 class="h5"><b>This is our best.Join now!!.</b></h5><p>
+							
+						</div>
+					</div>
+				</p></div>
+
+
+						
+		</div><!-- End Body -->
+		</div><!--container end-->
+		<div class="footer">
+			<div>
+				<p class="para1">Sri Lankan 24hr News Portal. Its time to change News world.. We are Update evry Minute. <br> <br> Asian Network (Pvt) Limited <br> No 23, Colombo 03 <br>
+					T.P: 01124578457, 0112 5896789 <br> Email : support@slnews.com</p>
+				<p class="para2">Design By : K.Thilini Maheshika | Faculty of Technology | South Eastern University of Sri Lanka <br>Email : kthilini1999@gmail.com </p>
+				<p class="para2">Copyright © The No1 News Portal of Sri Lanka 2020 All rights reserved. Asian Network (Pvt) Limited</p>
+			</div>
+			
+		</div>
+	</div>
+	</body>
+
+</html>

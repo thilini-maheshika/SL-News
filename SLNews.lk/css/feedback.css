@@ -1,0 +1,27 @@
+div.feedback_area{
+	width: 100%;
+	float: left;
+	height: 100%;
+}
+
+form.feedback_form{
+	width: 50%;
+	padding: 2%;
+	margin-left: 2%;
+	margin-top: 2%;s
+
+}
+.feedback_btn{
+	width: 20%;
+	height: 50px;
+	font-family: "Times New Roman", Times, serif; 
+}
+.feedback_label{
+	font-size: 1.2em;
+	font-family: "Times New Roman", Times, serif; 
+
+}
+.feedback_text{
+	width: 54%;
+}
+
